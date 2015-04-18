@@ -1,0 +1,29 @@
+﻿nav ul li{
+    list-style: none;
+    display: block;
+    width: 80px;
+}
+
+nav ul li:hover{
+    color: red;
+}
+
+ nav ul li ul{
+    display: none;
+}
+
+nav ul li ul li{
+    margin-left: 25px;
+}
+
+nav ul li:hover ul{
+    display: block;
+    animation: ease-in;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(128, 128, 128, 0.64);
+}
+
+nav ul li:hover ul li{
+    color: none;
+}

@@ -1,0 +1,156 @@
+﻿/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Total Management CSS*/
+
+#TotalManagementForm {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50em;
+    height: 22em;
+    border: 1px solid #444141;
+    border-radius: 7px;
+    background-color: #3B3B3B;
+}
+
+#HeaderField {
+    position: relative;
+    height: 5em;
+    width: 50em;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background: #3b3b3b; /* Old browsers */
+    background: -moz-linear-gradient(top, #3b3b3b 19%, #323232 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(19%,#3b3b3b), color-stop(100%,#323232)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3b3b3b 19%,#323232 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3b3b3b 19%,#323232 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3b', endColorstr='#323232',GradientType=0 ); /* IE6-9 */
+}
+
+img{
+    float: left;
+    opacity: 10;
+    border-top-left-radius: 7px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#HeaderField > div{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+#HeaderField > div span{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#HeaderField div div #LoginName {
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    height: 23px;
+}
+
+#HeaderField div div #LoginEmail{
+    position: absolute;
+    top: 0px;
+    left: 390px;
+    height: 23px;
+}
+
+input:-moz-placeholder{
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;
+    vertical-align: central;
+}
+
+input::-webkit-input-placeholder{
+    padding-left: 10px;
+    color: black;
+    font-size: 16px;
+    vertical-align: central;
+}
+
+button{
+    position: absolute;
+    top: -3px;
+    left: 600px;
+    width: 75px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+
+    background: #ff4b3a; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff4b3a 46%, #ff4b3a 46%, #d80404 69%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#ff4b3a), color-stop(46%,#ff4b3a), color-stop(69%,#d80404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ff4b3a 46%,#ff4b3a 46%,#d80404 69%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ff4b3a 46%,#ff4b3a 46%,#d80404 69%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ff4b3a 46%,#ff4b3a 46%,#d80404 69%); /* IE10+ */
+    background: linear-gradient(to bottom, #ff4b3a 46%,#ff4b3a 46%,#d80404 69%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4b3a', endColorstr='#d80404',GradientType=0 ); /* IE6-9 */
+}
+
+#TotalManagementForm > #Title{
+    color: #FDD416;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+#Text {
+    margin-top: 25px;
+    margin-left: 15px;
+    padding-right: 30px;
+    color: #A1A1A1;
+    font-family: Consolas;
+    line-height: 20px;
+}
+
+#Text span {
+    color: white;
+}
