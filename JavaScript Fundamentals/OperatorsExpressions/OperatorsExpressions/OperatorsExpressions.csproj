@@ -57,6 +57,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01.OddOrEven\index.html" />
+    <Content Include="01.OddOrEven\script\exercise-solution.js" />
+    <Content Include="01.OddOrEven\styles\input-form.css" />
+    <Content Include="02.DivisibleBy\index.html" />
+    <Content Include="02.DivisibleBy\script\exercise-solution.js" />
+    <Content Include="02.DivisibleBy\styles\input-form.css" />
+    <Content Include="03.RectagleArea\index.html" />
+    <Content Include="03.RectagleArea\scrip\exercise-solution.js" />
+    <Content Include="03.RectagleArea\styles\input-form.css" />
+    <Content Include="04.CheckThirdDigit\index.html" />
+    <Content Include="04.CheckThirdDigit\script\exercise-solution.js" />
+    <Content Include="04.CheckThirdDigit\styles\input-form.css" />
+    <Content Include="05.CheckBit\index.html" />
+    <Content Include="05.CheckBit\script\exercise-solution.js" />
+    <Content Include="05.CheckBit\styles\input-form.css" />
+    <Content Include="06.IsInCircle\index.html" />
+    <Content Include="06.IsInCircle\script\exercise-solution.js" />
+    <Content Include="06.IsInCircle\styles\input-form.css" />
+    <Content Include="07.IsPrime\index.html" />
+    <Content Include="07.IsPrime\script\exercise-solution.js" />
+    <Content Include="07.IsPrime\styles\input-form.css" />
+    <Content Include="08.TrapezoidArea\index.html" />
+    <Content Include="08.TrapezoidArea\script\exercise-solution.js" />
+    <Content Include="08.TrapezoidArea\styles\input-form.css" />
+    <Content Include="09.CheckPoint\index.html" />
+    <Content Include="09.CheckPoint\script\exercise-solution.js" />
+    <Content Include="09.CheckPoint\styles\input-form.css" />
+    <Content Include="js-console-style\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,13 +93,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
-    <Content Include="scripts\less.js" />
+    <Content Include="js-console-script\js-console.js" />
+    <Content Include="js-console-style\js-console.css" />
+    <Content Include="js-console-style\js-console.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
