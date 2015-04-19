@@ -1,0 +1,30 @@
+body {
+  border-radius: 10px;
+  width: 1200px;
+  height: 630px;
+  background: url(/images/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+figure ul {
+  list-style-type: none;
+  text-align: right;
+  li {
+    display: inline;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+
+div img {
+  position: absolute;
+  top: 130px;
+  left: 165px;
+  width: 1000px;
+  height: 500px;
+  visibility: hidden;
+  border: 2px solid white;
+}
