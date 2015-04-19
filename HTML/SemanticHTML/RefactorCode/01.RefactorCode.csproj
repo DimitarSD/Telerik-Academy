@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0E2F8A13-1081-4CB7-B56B-257E8E3E8F7C}</ProjectGuid>
+    <ProjectGuid>{3936444A-532F-4730-A903-4E514CF6FDA3}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataTypesAndVariables</RootNamespace>
-    <AssemblyName>DataTypesAndVariables</AssemblyName>
+    <RootNamespace>RefactorCode</RootNamespace>
+    <AssemblyName>RefactorCode</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -57,10 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="styles\less.less" />
-    <Content Include="styles\less.css.map">
-      <DependentUpon>less.css</DependentUpon>
-    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,11 +66,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="scripts\homework-exercises.js" />
-    <Content Include="scripts\less.js" />
-    <Content Include="styles\less.css">
-      <DependentUpon>less.less</DependentUpon>
-    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -93,9 +84,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>7436</DevelopmentServerPort>
+          <DevelopmentServerPort>8227</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:7436/</IISUrl>
+          <IISUrl>http://localhost:8227/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
