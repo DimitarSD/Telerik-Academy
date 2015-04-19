@@ -57,10 +57,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="styles\less.less" />
-    <Content Include="styles\less.css.map">
-      <DependentUpon>less.css</DependentUpon>
-    </Content>
+    <Content Include="01.AssignLiterals\script\exercise-solution.js" />
+    <Content Include="02.QuotedText\index.html" />
+    <Content Include="02.QuotedText\script\exercise-solution.js" />
+    <Content Include="02.QuotedText\styles\input-form.css" />
+    <Content Include="03.TryTypeOf\index.html" />
+    <Content Include="03.TryTypeOf\script\exercise-solution.js" />
+    <Content Include="04.NullAndUndefinedVariable\index.html" />
+    <Content Include="04.NullAndUndefinedVariable\script\exercise-solution.js" />
+    <Content Include="js-console-script\js-console.js" />
+    <Content Include="js-console-style\js-console.less" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -70,16 +76,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="scripts\homework-exercises.js" />
-    <Content Include="scripts\less.js" />
-    <Content Include="styles\less.css">
-      <DependentUpon>less.less</DependentUpon>
-    </Content>
+    <Content Include="js-console-style\js-console.css" />
+    <Content Include="js-console-style\js-console.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
