@@ -58,8 +58,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\background.jpg" />
+    <Content Include="images\pic10.jpg" />
     <Content Include="images\pic4.jpg" />
     <Content Include="images\pic5.jpg" />
+    <Content Include="images\pic6.jpg" />
+    <Content Include="images\pic7.jpg" />
+    <Content Include="images\pic8.jpg" />
+    <Content Include="images\pic9.jpg" />
+    <Content Include="music\Mr. Probz - Waves.mp3" />
     <Content Include="styles\LESSstyleSheet.less" />
     <Content Include="styles\LESSstyleSheet.css.map">
       <DependentUpon>LESSstyleSheet.css</DependentUpon>

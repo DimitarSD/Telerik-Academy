@@ -57,6 +57,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\pic10.jpg" />
+    <Content Include="images\pic6.jpg" />
+    <Content Include="images\pic7.jpg" />
+    <Content Include="images\pic8.jpg" />
+    <Content Include="images\pic9.jpg" />
+    <Content Include="music\Mr. Probz - Waves.mp3" />
     <Content Include="styles\SASSstyleSheet.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
