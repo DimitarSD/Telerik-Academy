@@ -65,11 +65,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01.Graphics\index.html" />
+    <Content Include="01.Graphics\script\exercise-homework.js" />
+    <Content Include="01.Graphics\styles\canvas-form.css" />
+    <Content Include="02.Ball\index.html" />
+    <Content Include="02.Ball\script\exercise-homework.js" />
+    <Content Include="02.Ball\styles\canvas.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
