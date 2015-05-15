@@ -22,3 +22,8 @@ function isPrime() {
 
     jsConsole.writeLine('Your number is prime: ' + prime);
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

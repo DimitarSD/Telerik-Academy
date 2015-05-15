@@ -13,3 +13,8 @@ function calculateArea() {
 
     jsConsole.writeLine('Trapezoid area is: ' + area);
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

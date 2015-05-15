@@ -16,3 +16,9 @@ function checkPoint() {
 
     jsConsole.writeLine('Your point is inside the circle and out of the rectangle: ' + isInside);
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

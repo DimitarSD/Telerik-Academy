@@ -15,3 +15,7 @@ function checkForDigit() {
     }
 }
 
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

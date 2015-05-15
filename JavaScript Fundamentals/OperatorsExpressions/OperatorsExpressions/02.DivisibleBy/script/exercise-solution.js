@@ -13,3 +13,8 @@ function isDivisible() {
         jsConsole.writeLine('Your number is not disivible by 7 and 3 at the same time');
     }
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

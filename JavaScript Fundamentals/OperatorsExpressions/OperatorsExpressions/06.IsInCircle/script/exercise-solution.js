@@ -12,3 +12,8 @@ function checkPoint() {
 
     jsConsole.writeLine('The point is inside the circle: ' + isInside);
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

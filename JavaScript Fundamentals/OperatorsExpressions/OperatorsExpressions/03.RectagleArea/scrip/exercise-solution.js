@@ -11,3 +11,8 @@ function calculateArea() {
     var area = width * height;
     jsConsole.writeLine('The area is: ' + area);
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

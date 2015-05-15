@@ -13,3 +13,9 @@ function checkNumber() {
         jsConsole.writeLine('Your number is odd. -> ' + number);
     }
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}

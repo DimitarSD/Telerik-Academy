@@ -15,3 +15,8 @@ function checkBit() {
     jsConsole.writeLine('Your number is binary: ' + binary);
     jsConsole.writeLine('The bit at position 3 is: ' + bit);
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}
