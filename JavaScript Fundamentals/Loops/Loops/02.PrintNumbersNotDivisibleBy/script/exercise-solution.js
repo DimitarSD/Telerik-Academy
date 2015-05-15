@@ -15,3 +15,8 @@ function printNumbers() {
         }
     }
 }
+
+var clearButton = document.getElementById('clear');
+clearButton.onclick = function () {
+    jsConsole.clearConsole();
+}
