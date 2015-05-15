@@ -9,6 +9,12 @@ var testButton = document.getElementById('start');
 
 testButton.onclick = displayNumberAsWord;
 
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}
+
 function displayNumberAsWord(){
     var numberAsString = jsConsole.readInteger('#input-number');
     var number = parseInt(numberAsString, 10);
@@ -137,3 +143,4 @@ function getTenthsSecond(number) {
             return 'Ninety ';
     }
 }
+

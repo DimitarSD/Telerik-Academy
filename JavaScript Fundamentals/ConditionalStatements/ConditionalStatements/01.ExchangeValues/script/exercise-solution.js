@@ -20,3 +20,9 @@ function exchangeValues() {
     jsConsole.writeLine('First number: ' + firstNumber);
     jsConsole.writeLine('Second number: ' + secondNumber);
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

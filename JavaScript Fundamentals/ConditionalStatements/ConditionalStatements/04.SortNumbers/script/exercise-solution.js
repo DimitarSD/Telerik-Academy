@@ -23,3 +23,9 @@ function sortNumbers() {
         jsConsole.writeLine('Your numbers sorted in descending order: ' + firstNumber + ' ' + secondNumber + ' ' + thirdNumber);
     }
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

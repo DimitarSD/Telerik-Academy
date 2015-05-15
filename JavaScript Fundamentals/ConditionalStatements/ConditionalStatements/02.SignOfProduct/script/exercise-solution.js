@@ -26,3 +26,9 @@ function showProductSign() {
         jsConsole.writeLine('The product is positive (Plus +)');
     }
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

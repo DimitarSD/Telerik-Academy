@@ -24,3 +24,9 @@ function findBiggestNumber() {
         jsConsole.writeLine('You have equal numbers. I can\'t give you an answer.');
     }
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

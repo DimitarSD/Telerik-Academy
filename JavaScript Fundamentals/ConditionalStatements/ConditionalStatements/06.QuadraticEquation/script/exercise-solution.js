@@ -28,3 +28,9 @@ function calculate() {
     }
 
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

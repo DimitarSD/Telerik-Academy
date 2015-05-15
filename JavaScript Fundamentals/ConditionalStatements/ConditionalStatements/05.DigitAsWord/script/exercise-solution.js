@@ -42,3 +42,9 @@ function displayDigitAsWord() {
             jsConsole.writeLine('Not a digit');
     }
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}
