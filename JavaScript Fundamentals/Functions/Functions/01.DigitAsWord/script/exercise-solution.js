@@ -41,3 +41,9 @@ function getDigitAsWord() {
 function displayDigitAsWord() {
     jsConsole.writeLine(getDigitAsWord());
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

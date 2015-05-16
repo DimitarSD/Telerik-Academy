@@ -26,3 +26,9 @@ function getNumberOfOccurrences() {
 
     jsConsole.writeLine(counter);
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}
