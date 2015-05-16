@@ -37,3 +37,9 @@ function findMinNumber() {
 
     jsConsole.writeLine('The min number is: ' + min);
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}
