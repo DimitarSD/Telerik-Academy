@@ -31,3 +31,9 @@ function sortNumbers() {
     jsConsole.writeLine('Your sequense after the sort:');
     jsConsole.writeLine(sequenceOfNumbers.join(', '));
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

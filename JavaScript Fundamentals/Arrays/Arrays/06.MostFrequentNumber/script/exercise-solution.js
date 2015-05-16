@@ -35,3 +35,9 @@ function findNumber() {
 
     jsConsole.writeLine('The most frequent number is ' + number + ' (' + maxCounter + ' times)');
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

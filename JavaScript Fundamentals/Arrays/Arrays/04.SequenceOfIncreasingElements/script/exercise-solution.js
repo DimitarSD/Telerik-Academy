@@ -50,3 +50,9 @@ function printSequence(bestStart, maxCounter, sequenceOfNumbers) {
 
     jsConsole.writeLine();
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+}

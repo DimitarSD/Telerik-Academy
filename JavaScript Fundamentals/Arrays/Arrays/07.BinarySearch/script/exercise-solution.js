@@ -40,3 +40,12 @@ function binarySearch(sequenceOfNumbers, element, min, max) {
     var defaultValue = -1;
     return defaultValue;
 }
+
+var clearButton = document.getElementById('clear');
+
+clearButton.onclick = function clear() {
+    jsConsole.clearConsole();
+    jsConsole.writeLine('Please choose a number.');
+    jsConsole.writeLine('The sequence: ');
+    jsConsole.writeLine(sequenceOfNumbers.join(', '));
+}
