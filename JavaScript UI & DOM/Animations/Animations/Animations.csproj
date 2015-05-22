@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="01.WalkingSuperMario\images\cloud.png" />
+    <Content Include="01.WalkingSuperMario\images\Coin.gif" />
+    <Content Include="01.WalkingSuperMario\images\Pipe.gif" />
     <Content Include="01.WalkingSuperMario\images\SuperMario1.png" />
     <Content Include="01.WalkingSuperMario\images\SuperMario2.png" />
     <Content Include="01.WalkingSuperMario\index.html" />
