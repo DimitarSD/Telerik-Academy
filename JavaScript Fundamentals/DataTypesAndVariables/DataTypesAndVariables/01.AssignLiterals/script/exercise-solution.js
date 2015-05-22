@@ -8,6 +8,7 @@ var obj = {
     Name: 'JavaScript',
     NumberOfLecures: 25,
     Lector: 'Penka'
+	toString: {obj.Name + obj.NumberOfLecures + obj.Lector}
 };
 
 var nullVariable = null;
