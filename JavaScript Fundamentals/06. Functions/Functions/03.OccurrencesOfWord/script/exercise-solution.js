@@ -12,6 +12,7 @@ function getWords() {
     return words;
 }
 
+
 function getNumberOfOccurrences() {
     var searchedWord = jsConsole.read('#input-word');
     var arrayOfWords = getWords();
