@@ -28,7 +28,11 @@ function checkExpression() {
         }
     }
 
-    return true;
+    if (bracketsCounter === 0){
+		return true;
+	}else{
+		return false;
+	}
 }
 
 function displayResult() {
