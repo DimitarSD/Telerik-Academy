@@ -24,11 +24,11 @@ function solve() {
 		}
 		
 		Object.defineProperty(Person.prototype, 'firstname', {
-			get: function(){
+			get: function () {
 				return this._firstname;
 			},
 			
-			set: function(value){
+			set: function (value) {
 				if (typeof (value) !== 'string'){
 					throw new Error('The name must be of type string.');
 				}
@@ -52,16 +52,17 @@ function solve() {
 			},
 			
 			set: function (value) {
-				if (typeof (value) !== 'string'){
+				if (typeof (value) !== 'string') {
 					throw new Error('The name must be of type string.');
 				}
 				
-				if (value.length < 3 || value.length > 20){
+				if (value.length < 3 || value.length > 20) {
 					throw new Error('The name must contain between 3 and 20 characters.');
 				}
 				
-				if (!isContainingOnlyLatinLetters(value)){
+				if (!isContainingOnlyLatinLetters(value)) {
 					throw new Error('The name must contain only latin letters');
+					
 				}
 				
 				this._lastname = value;
