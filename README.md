@@ -3,11 +3,11 @@
 
 Programming                             | Web Development                            |Software Technologies 
 --------------------------------------  | ------------------------------------------ |----------------------
-[C# Programming - Part I](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/01.%20C%23%20Programming%20-%20Part%20I)             |[HTML Basics](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/01.%20HTML%20Basics)                             |[Databases](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies)         
-[C# Programming - Part II](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/02.%20C%23%20Programming%20-%20Part%20II)            |[CSS Styling](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/02.%20CSS%20Styling)                             |                      
-[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/03.%20Object-Oriented%20Programming%20%5BC%23%5D)    |[JavaScript Fundamentals](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/03.%20JavaScript%20Fundamentals)                 |                      
-[High-Quality Code [C#, JS]](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D)  |[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D)|                      
-[Data Structures and Algorithms](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D) |[JavaScript UI & DOM](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM)                     |                      
+[C# Programming - Part I](https://github.com/DimitarSD/Telerik-Academy#c-programming---part-i)             |[HTML Basics](https://github.com/DimitarSD/Telerik-Academy#html-basics)                             |[Databases](https://github.com/DimitarSD/Telerik-Academy#databases)         
+[C# Programming - Part II](https://github.com/DimitarSD/Telerik-Academy#c-programming---part-ii)            |[CSS Styling](https://github.com/DimitarSD/Telerik-Academy#css-styling)                             |                      
+[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-c)    |[JavaScript Fundamentals](https://github.com/DimitarSD/Telerik-Academy#javascript-fundamentals)                 |                      
+[High-Quality Code [C#, JS]](https://github.com/DimitarSD/Telerik-Academy#high-quality-code-c-javascript)  |[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-javascript)|                      
+[Data Structures and Algorithms](https://github.com/DimitarSD/Telerik-Academy#data-structures-and-algorithms-c) |[JavaScript UI & DOM](https://github.com/DimitarSD/Telerik-Academy#javascript-ui--dom)                     |                      
 
 
 # Programming 
