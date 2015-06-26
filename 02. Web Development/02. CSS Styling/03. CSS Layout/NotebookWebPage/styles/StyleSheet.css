@@ -1,0 +1,177 @@
+﻿/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, 
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, 
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, 
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Notebook Web Page - CSS */
+
+body section{
+    border: 2px solid #737373;
+    border-radius: 7px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 45em;
+    height: 500px;
+}
+
+body section nav{
+    text-align: center;
+    margin-top: 5px;
+}
+
+body section nav a{
+    font-family: Verdana;
+    font-size: 20px;
+    color: #00ACEF;
+}
+
+hr{
+    border: 1px solid #737373;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body section > div{
+    position: relative;
+}
+
+body section > div div{
+    position: absolute;
+    left: 10px;
+
+    border: 2px solid #737373;
+    width: 450px;
+    height: 440px;
+}
+
+body section > div div div{
+    position: absolute;
+    margin-left: -10px;
+    width: 210px;
+    border: none;
+}
+
+#SecondFieldSet{
+    position: absolute;
+    left: 230px;
+}
+
+fieldset{
+    position: relative;
+    border: 2px solid #737373;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    width: 212px;
+    height: 140px;
+}
+
+fieldset legend{
+    font-family: Verdana;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+fieldset > img{
+    margin-left: 10px;
+    width: 110px;
+    height: 100px;
+}
+
+body section div div div fieldset > div{
+    position: absolute;
+    top: 35px;
+    left: 140px;
+    height: 150px;
+}
+
+body section div div div fieldset > #Price{
+    position: absolute;
+    top: 105px;
+    left: 40px;
+    height: 150px;
+}
+
+fieldset > div span{
+    display: block;
+    line-height: 35px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+#Sliders{
+    position: relative;
+    left: 470px;
+    border: none;
+    width: 240px;
+    height: 442px;
+}
+
+#Sliders > div{
+    text-align: center;
+}
+
+#Sliders > #MinPrice{
+    margin-top: 50px;
+}
+
+#Sliders > #MaxPrice{
+    margin-top: 135px;
+}
+
+#Sliders > #MinRAM{
+    margin-top: 225px;
+}
+
+#Sliders > #MaxRAM{
+    margin-top: 320px;
+}
+
+#Sliders > div span{
+    font-family: Verdana;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+input[type="range"]{
+    margin-left: 20px;
+    width: 200px;
+}

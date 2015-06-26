@@ -1,0 +1,330 @@
+﻿/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub,
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after, q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Tutorial Web Page - CSS*/
+
+html {
+    background-color: #F1F1F1;
+}
+
+body {
+    margin-top: 1px;
+    margin-left: 5px;
+    border: 1px solid black;
+    width: 1002px;
+    height: 630px;
+}
+
+    body aside div {
+        position: relative;
+        margin-top: 15px;
+        margin-left: 3px;
+        font-size: 14px;
+    }
+
+        body aside div img {
+            height: 1em;
+            width: 1em;
+        }
+
+        body aside div span {
+            font-weight: bold;
+        }
+
+        body aside div header span {
+            font-family: sans-serif;
+            font-weight: bold;
+            color: #830101;
+        }
+
+        body aside div nav ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+            body aside div nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+    body main {
+        position: absolute;
+        top: 3px;
+        left: 200px;
+        border: 1px solid black;
+        background-color: white;
+        width: 600px;
+        height: 595px;
+    }
+
+        body main header {
+            margin-top: 20px;
+            margin-left: 5px;
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 21px;
+        }
+
+div input {
+    margin-top: 15px;
+    width: 110px;
+    background: white;
+    border: 1px solid black;
+}
+
+#Previous {
+    background-image: url(/images/left.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 5px;
+}
+
+#Next {
+    background-image: url(/images/right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+main hr {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px outset rgba(128, 128, 128, 0.45);
+}
+
+#MainArticle {
+    position: relative;
+}
+
+#TitlePanel {
+    background-color: #808080;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+
+#MainArticle img {
+    float: left;
+    width: 120px;
+    height: 90px;
+}
+
+#MainArticle article {
+    position: absolute;
+    top: 20px;
+    left: 130px;
+}
+
+    #MainArticle article span {
+        display: block;
+        margin-bottom: 15px;
+        margin-right: 15px;
+        font-weight: bold;
+        font-family: Verdana;
+        font-size: 12px;
+    }
+
+#MainArticle footer {
+    position: absolute;
+    top: 90px;
+    left: 130px;
+}
+
+    #MainArticle footer a {
+        font-family: Consolas;
+        font-size: 14px;
+        color: #9B2422;
+    }
+
+#SubArticleExamples {
+    margin-top: 120px;
+}
+
+#SubArticle {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+    #SubArticle span {
+        font-family: Consolas;
+        font-size: 13px;
+    }
+
+#SubFooter {
+    margin-left: 5px;
+}
+
+    #SubFooter a {
+        font-family: Consolas;
+        font-size: 12px;
+        color: #9B2422;
+    }
+
+#SubArticles {
+    margin-top: 10px;
+}
+
+#Buttons {
+    margin-left: 5px;
+    margin-top: -15px;
+}
+
+#RightAside {
+    position: absolute;
+    top: 3px;
+    left: 805px;
+    width: 200px;
+    height: 600px;
+}
+
+    #RightAside > div {
+        margin-top: 0px;
+        margin-bottom: 1px;
+        border: 1px solid black;
+        background-color: white;
+    }
+
+#SubAsideBarTitle {
+    background-color: #808080;
+    padding-top: 3px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 15px;
+    text-align: center;
+    vertical-align: central;
+}
+
+#RightAside > div div:nth-of-type(2) {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#SearchButton {
+    text-align: center;
+    width: 25px;
+    border-radius: 5px;
+    background: rgb(245,246,246); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(245,246,246,1) 7%, rgba(184,186,198,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(7%,rgba(245,246,246,1)), color-stop(100%,rgba(184,186,198,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(245,246,246,1) 7%,rgba(184,186,198,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(245,246,246,1) 7%,rgba(184,186,198,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(245,246,246,1) 7%,rgba(184,186,198,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(245,246,246,1) 7%,rgba(184,186,198,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#b8bac6',GradientType=0 ); /* IE6-9 */
+}
+
+#RightAside > div div:nth-of-type(3) {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+    #RightAside > div div:nth-of-type(3) span {
+        display: inline-block;
+        text-align: center;
+        margin-left: 35px;
+    }
+
+#Links span a {
+    font-family: Consolas;
+    font-size: 13px;
+    color: #9B2422;
+}
+
+#RightAside > div:nth-of-type(2) div {
+    display: block;
+    margin-top: -13px;
+    margin-left: 42px;
+}
+
+#RightAside > div:nth-of-type(2) #Links {
+    margin-top: 3px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+input[value="25+ Styles!"] {
+    background: rgb(183,227,252); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(183,227,252,1) 10%, rgba(211,239,254,1) 25%, rgba(211,239,254,1) 77%, rgba(211,239,254,1) 77%, rgba(183,227,252,1) 88%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(10%,rgba(183,227,252,1)), color-stop(25%,rgba(211,239,254,1)), color-stop(77%,rgba(211,239,254,1)), color-stop(77%,rgba(211,239,254,1)), color-stop(88%,rgba(183,227,252,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(183,227,252,1) 10%,rgba(211,239,254,1) 25%,rgba(211,239,254,1) 77%,rgba(211,239,254,1) 77%,rgba(183,227,252,1) 88%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(183,227,252,1) 10%,rgba(211,239,254,1) 25%,rgba(211,239,254,1) 77%,rgba(211,239,254,1) 77%,rgba(183,227,252,1) 88%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(183,227,252,1) 10%,rgba(211,239,254,1) 25%,rgba(211,239,254,1) 77%,rgba(211,239,254,1) 77%,rgba(183,227,252,1) 88%); /* IE10+ */
+    background: linear-gradient(to right, rgba(183,227,252,1) 10%,rgba(211,239,254,1) 25%,rgba(211,239,254,1) 77%,rgba(211,239,254,1) 77%,rgba(183,227,252,1) 88%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7e3fc', endColorstr='#b7e3fc',GradientType=1 ); /* IE6-9 */
+    width: 110px;
+    height: 40px;
+    color: #66D3FB;
+    font-weight: bold;
+}
+
+#WebHostingLinks {
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+    #WebHostingLinks span {
+        display: block;
+        text-align: center;
+    }
+
+        #WebHostingLinks span a {
+            font-family: Consolas;
+            font-size: 13px;
+            color: #9B2422;
+        }
+
+#HostingLinks span {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: block;
+    text-align: center;
+}
+
+    #HostingLinks span a {
+        font-family: Consolas;
+        font-size: 13px;
+        color: #9B2422;
+    }
