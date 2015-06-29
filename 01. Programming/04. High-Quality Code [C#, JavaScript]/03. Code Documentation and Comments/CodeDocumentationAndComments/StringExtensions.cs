@@ -19,9 +19,9 @@
         /// <param name="input">Value to be converted</param>
         /// <returns></returns>
         public static string ToMd5Hash(this string input)
-        {        
+        {
             var md5Hash = MD5.Create();
-                 
+
             // Convert the input string to a byte array and compute the hash.
             var data = md5Hash.ComputeHash(Encoding.UTF8.GetBytes(input));
 
