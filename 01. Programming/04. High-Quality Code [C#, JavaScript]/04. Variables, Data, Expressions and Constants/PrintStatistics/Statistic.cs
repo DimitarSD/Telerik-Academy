@@ -5,13 +5,13 @@
 
     public class Statistic
     {
-        public string PrintStatistics(double[] dataColection, int numberOfAllRecords)
+        public string PrintStatistics(double[] dataColection, int dataColectionLength)
         {
             StringBuilder resultFromStatistic = new StringBuilder();
 
             double maxValue = Double.MinValue;
 
-            for (int i = 0; i < numberOfAllRecords; i++)
+            for (int i = 0; i < dataColectionLength; i++)
             {
                 if (dataColection[i] > maxValue)
                 {
@@ -24,7 +24,7 @@
 
             double minValue = Double.MaxValue;
 
-            for (int i = 0; i < numberOfAllRecords; i++)
+            for (int i = 0; i < dataColectionLength; i++)
             {
                 if (dataColection[i] < minValue)
                 {
@@ -37,12 +37,12 @@
 
             double sum = 0;
 
-            for (int i = 0; i < numberOfAllRecords; i++)
+            for (int i = 0; i < dataColectionLength; i++)
             {
                 sum += dataColection[i];
             }
 
-            double averageValue = sum / numberOfAllRecords;
+            double averageValue = sum / dataColectionLength;
 
             string averageValueAsString = string.Format("The average value from the given data is {0}", averageValue);
             resultFromStatistic.AppendLine(averageValueAsString);
