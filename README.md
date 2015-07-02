@@ -46,6 +46,7 @@ Programming                             | Web Development                       
 1. [Code Formatting [C#, JavaScript]](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/01.%20CodeFormatting)
 * [Naming Identifiers [C#, JavaScript]](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/02.%20NamingIdentifiers)
 * [Code Documentation and Comments](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/03.%20Code%20Documentation%20and%20Comments)
+* [Variables, Data, Expressions and Constants](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/04.%20Variables%2C%20Data%2C%20Expressions%20and%20Constants)
 
 ### Data Structures and Algorithms [C#]
 
