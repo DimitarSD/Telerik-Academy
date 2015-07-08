@@ -89,6 +89,7 @@ Programming                             | Web Development                       
 * [Scopes and Closures](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/02.%20Scopes%20and%20Closures)
 * [Classical Inheritance](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/03.%20Classical%20Inheritance)
 * [Prototypal Inheritance](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/04.%20Prototypal%20Inheritance)
+* [Modules and Patterns](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/05.%20Modules%20and%20Patterns)
 
 ### JavaScript UI & DOM
 
