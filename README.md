@@ -90,6 +90,7 @@ Programming                             | Web Development                       
 * [Classical Inheritance](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/03.%20Classical%20Inheritance)
 * [Prototypal Inheritance](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/04.%20Prototypal%20Inheritance)
 * [Modules and Patterns](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/05.%20Modules%20and%20Patterns)
+* [Sample exam - JavaScript OOP 2015](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/04.%20Object-Oriented%20Programming%20%5BJavaScript%5D/06.%20Sample%20exam%20-%20JavaScript%20OOP%202015)
 
 ### JavaScript UI & DOM
 
