@@ -104,6 +104,7 @@ Programming                             | Web Development                       
 * [Animations](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/06.%20Animations)
 * [DOM Operations](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/07.%20DOM%20Operations)
 * [Event Model](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/08.%20Event%20Model)
+* [HTML Templates](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/11.%20HTML%20Templates)
 
 # Software Technologies
 
