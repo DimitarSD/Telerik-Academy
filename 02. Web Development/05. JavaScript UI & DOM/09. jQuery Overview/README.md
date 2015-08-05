@@ -1,4 +1,4 @@
-#DOM Operations
+#jQuery Overview
 
 ##Task 1
 Create a function that takes a selector and COUNT, then generates inside a UL with COUNT LIs:   
