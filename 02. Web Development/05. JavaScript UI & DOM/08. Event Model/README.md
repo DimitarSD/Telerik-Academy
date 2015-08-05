@@ -1,4 +1,4 @@
-#DOM Operations
+#Event model
 ##Task 1
 Create a function that takes an id or DOM element and:
 * If an id is provided, select the element
