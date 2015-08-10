@@ -8,7 +8,7 @@ Programming                             | Web Development                       
 [Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-c)    |[JavaScript Fundamentals](https://github.com/DimitarSD/Telerik-Academy#javascript-fundamentals)                 |                      
 [High-Quality Code [C#, JS]](https://github.com/DimitarSD/Telerik-Academy#high-quality-code-c-javascript)  |[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-javascript)|                      
 [Data Structures and Algorithms](https://github.com/DimitarSD/Telerik-Academy#data-structures-and-algorithms-c) |[JavaScript UI & DOM](https://github.com/DimitarSD/Telerik-Academy#javascript-ui--dom)                     |        
-| |[JavaScript Application](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application)|              
+| |[JavaScript Application](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/01.%20UnderscoreJS)|              
 
 
 # Programming 
