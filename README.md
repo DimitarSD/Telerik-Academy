@@ -109,6 +109,10 @@ Programming                             | Web Development                       
 * [jQuery Plugins](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/10.%20jQuery%20Plugins)
 * [HTML Templates](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/05.%20JavaScript%20UI%20%26%20DOM/11.%20HTML%20Templates)
 
+### JavaScript Application
+
+1. [UnderscoreJS](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/01.%20UnderscoreJS)
+
 # Software Technologies
 
 ### Databases
