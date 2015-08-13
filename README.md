@@ -112,6 +112,7 @@ Programming                             | Web Development                       
 ### JavaScript Application
 
 1. [UnderscoreJS](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/01.%20UnderscoreJS)
+2. [Web storages](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/02.%20Web%20storages)
 
 # Software Technologies
 
