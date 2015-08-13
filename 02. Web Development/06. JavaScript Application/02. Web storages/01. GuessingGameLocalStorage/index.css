@@ -1,0 +1,116 @@
+#game-field {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 350px;
+	text-align: center;
+	background-color: #4CB749;
+}
+
+#input-label {
+	font-family: Consolas;
+	font-size: 20px;
+	color: white;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#input-number {
+	width: 70px;
+	height: 25px;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 140px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#guessing-button {
+	height: 25px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: #007ACC;
+	font-weight: bold;
+}
+
+#hightscore {
+	display: block;
+	margin-top: 10px;
+	margin-left: 115px;
+	margin-bottom: 10px;
+	width: 120px;
+	height: 26px;
+	border: 1px solid black;
+	background-color: #3E3E3E;
+	font-size: 20px;
+	color: white;
+}
+
+#turns {
+	display: block;
+	margin-bottom: 10px;
+	font-family: Consolas;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#message-container {
+	border: 1px solid black;
+	border-radius: 5px;
+	width: 350px;
+	text-align: center;
+	margin-top: 15px;
+	font-family: Consolas;
+	font-size: 13px;
+	background-color: #4CB749;
+}
+
+#nickname-label {
+	 font-weight: bold;
+	 font-size: 13px;
+}
+
+#nickname-input {
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#save-game {
+	width: 150px;
+	height: 25px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	background-color: #3E3E3E;
+	font-size: 20px;
+	color: white;
+}
+
+table {
+	width: 350px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+thead {
+	font-family: Consolas;
+	font-weight: bold;
+	font-size: 25px;
+	background-color: #007ACC;
+}
+
+tbody {
+	font-weight: bold;
+	font-family: Consolas;
+}
+
+table, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+tr {
+	width: 200px;
+}
