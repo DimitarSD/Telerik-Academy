@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Managing students</title>
+		<link href="styles/index.css" rel="stylesheet">
+		<script src="scripts/libs/jquery.js"></script>
+		<script src="scripts/libs/handlebars-v3.0.3.js"></script>
+		<script src="scripts/libs/require.js" data-main="scripts/index"></script>
+	</head>
+	<body>
+		<div id="name-container" class="border">
+			<label id="name-label" for="name-input">Name: </label>
+			<input type="text" id="name-input"/>
+		</div>
+		<div id="grade-container" class="border">
+			<label id="grade-label" for="grade-input">Grade: </label>
+			<input type="text" id="grade-input"/>
+		</div>
+		<div id="id-container" class="border">
+			<label id="id-label" for="id-input">Enter ID to remove student: </label>
+			<input type="text" id="id-input"/>
+			<button id="remove">remove</button>
+		</div>
+		<div id="button-container" class="border">
+			<button id="add-student-button">Add new student</button>
+			<button id="remove-student-button">Remove student</button>
+			<button id="show-students-button">Show all students</button>
+		</div>
+		<div id="student-container"></div>
+		<script id="student-template" type="text/x-handlebars-template">
+			<li class="text-center">
+				<p class="student-id">ID: {{id}}</p>
+				<p class="student-name">Name: {{name}}</p>
+				<p class="student-grade">Grade: {{grade}}</p>
+			</li>
+		</script>
+	</body>
+</html>

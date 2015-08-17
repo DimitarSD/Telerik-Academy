@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Twitter</title>
+		<link href="styles/bootstrap.css" rel="stylesheet" />
+		<link href="styles/index.css" rel="stylesheet" />
+		<script src="scripts/libs/oauth.js"></script>
+		<script src="scripts/libs/jquery.js"></script>
+		<script src="scripts/libs/handlebars-v3.0.3.js"></script>
+	</head>
+	<body>
+		<img id="icon" src="media/twitter-icon.png"/>
+		<div id="input-field-username" class="text-center panel-body">
+			<label id="twitter-username" for="twitter-username-input">Twitter Username: </label>
+			<input type="text" id="twitter-username-input" class="form-control text-center"/>
+		</div>
+		<div id="input-field-messages" class="text-center panel-body">
+			<label id="number-messages" for="number-messages-input">Number of messages: </label>
+			<input type="text" id="number-messages-input" class="form-control text-center"/>
+		</div>
+		<div id="button-field" class="text-center panel-body">
+			<button id="show-tweets" class="btn btn-primary">Show user tweets</button>
+		</div>
+		<div id="tweets-container"></div>
+		<script id="tweet-template" type="text/x-handlebars-template">
+			<li class="text-center">
+				<div>
+					<img src="{{img_src}}"/>
+					<span>
+						<a href="http://twitter.com/{{username}}">{{name}}</a>
+					</span>
+					<span>{{sreen_name}}</span>
+				</div>
+				<p class="tweet">{{tweet_message}}</p>
+				<p class="time-posted">{{time_posted}}</p>
+			</li>
+		</script>
+		<script src="scripts/index.js"></script>
+	</body>
+</html>
