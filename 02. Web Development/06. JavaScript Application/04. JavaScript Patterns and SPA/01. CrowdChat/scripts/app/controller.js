@@ -1,8 +1,7 @@
-define(['jquery', 'sammy', 'update', 'send'], function ($, sammy, update, send) {
+define(['jquery', 'sammy', 'update', 'send', 'get-cookie'], function ($, sammy, updater, sender, cookie) {
 	var chatApp = function (containerID, url) {
 		return sammy(containerID, function () {
-			var username;
-
+			
 			this.get('#/home', function () {
 				$(containerID).html('');
 				$(containerID).load('scripts/views/home-template.html');
@@ -12,7 +11,7 @@ define(['jquery', 'sammy', 'update', 'send'], function ($, sammy, update, send) 
 				$(containerID).html('');
 				$(containerID).load('scripts/views/login-template.html', function () {
 					$('#login-button').on('click', function () {
-						username = $('#nickname-input').val();
+						var username = $('#nickname-input').val();
 
 						if (username.length < 3) {
 							$('#nickname-input').val('');
@@ -26,22 +25,30 @@ define(['jquery', 'sammy', 'update', 'send'], function ($, sammy, update, send) 
 			});
 
 			this.get('#/chat', function () {
-				var url = 'http://crowd-chat.herokuapp.com/posts';
+				var url = 'http://crowd-chat.herokuapp.com/posts',
+					username = cookie.getCookie('username');
+				
 				$(containerID).html('');
 
 				if (typeof (username) === 'undefined') {
-					alert('Please login');
+					alert('Please login'); // Need to change
 					window.location.hash = '#/login';
 				} else {
 					$(containerID).load('scripts/views/chat-template.html', function () {
 						$('#send-button').on('click', function () {
+							var textMessage = $('#message-input').val();
+							
+							if (textMessage === '') {
+								textMessage = '=== Gagnam style ===';
+							}
+							
 							var message = {
-								user: getCookie('username'),
-								text: $('#message-input').val()
+								user: username,
+								text: textMessage
 							};
 
 							$('#message-input').val('');
-							send.sendMessage(url, message);
+							sender.sendMessage(url, message);
 						});
 
 						$('#message-input').keypress(function (event) {
@@ -53,25 +60,9 @@ define(['jquery', 'sammy', 'update', 'send'], function ($, sammy, update, send) 
 				}
 
 				setInterval(function () {
-					update.makeUpdate(url, getCookie('username'));
+					updater.makeUpdate(url, username);
 				}, 3000);
 			});
-
-			function getCookie(name) {
-				var start = document.cookie.indexOf(name + '='),
-					end;
-
-				if (start !== -1) {
-					start = start + name.length + 1;
-					end = document.cookie.indexOf(';', start);
-
-					if (end === -1) {
-						end = document.cookie.length;
-					}
-
-					return document.cookie.substring(start, end);
-				}
-			}
 		});
 	};
 

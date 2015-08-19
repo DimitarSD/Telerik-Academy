@@ -4,11 +4,11 @@ define([], function () {
 		
 		function parseMessage(message) {
 			var parsedMessage = '',
-				laughingEmoticon = '<img src="media/laughing.png"/>', // :D or :d
-				likeEmoticon = '<img src="media/like.png"/>', // (y)
-				sadEmoticon = '<img src="media/sad.png"/>', // :(
-				smileEmoticon = '<img src="media/smile.png"/>', // :)
-				winkEmoticon = '<img src="media/wink.png"/>'; // ;)
+				laughingEmoticon = '<img src="media/laughing.png"/>', 
+				likeEmoticon = '<img src="media/like.png"/>', 
+				sadEmoticon = '<img src="media/sad.png"/>', 
+				smileEmoticon = '<img src="media/smile.png"/>', 
+				winkEmoticon = '<img src="media/wink.png"/>'; 
 			
 			for (var i = 0; i < message.length; i += 1) {
 				if (message[i] === ':' && (message[i + 1] === 'D' || message[i + 1] === 'd')) {

@@ -1,7 +1,7 @@
-define(['jquery', 'update'], function ($, update) {
+define(['jquery', 'update', 'get-cookie'], function ($, update, cookie) {
 	var send = (function () {
 		'use strict';
-		
+
 		function sendMessage(url, data) {
 			var deferred = $.Deferred(),
 				stringifiedData = '';
@@ -17,7 +17,7 @@ define(['jquery', 'update'], function ($, update) {
 				contentType: 'application/json',
 				timeout: 5000,
 				success: function (data) {
-					update.makeUpdate(url, getCookie('username'));
+					update.makeUpdate(url, cookie.getCookie('username'));
 				},
 				error: function (error) {
 					deferred.reject(error);
@@ -27,26 +27,10 @@ define(['jquery', 'update'], function ($, update) {
 			return deferred.promise();
 		};
 
-		function getCookie(name) {
-			var start = document.cookie.indexOf(name + '='),
-				end;
-
-			if (start !== -1) {
-				start = start + name.length + 1;
-				end = document.cookie.indexOf(';', start);
-
-				if (end === -1) {
-					end = document.cookie.length;
-				}
-
-				return document.cookie.substring(start, end);
-			}
-		}
-
 		return {
 			sendMessage: sendMessage
 		};
 	} ());
-	
+
 	return send;
 });

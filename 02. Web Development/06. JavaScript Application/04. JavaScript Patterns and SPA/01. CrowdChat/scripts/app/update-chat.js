@@ -1,7 +1,7 @@
-define(['jquery', 'messageParser'], function ($, parser) {
+define(['jquery', 'message-parser'], function ($, parser) {
 	var update = (function () {
 		'use strict';
-		
+
 		function makeUpdate(url, username) {
 			var deferred = $.Deferred();
 
@@ -14,9 +14,14 @@ define(['jquery', 'messageParser'], function ($, parser) {
 					$('#chat-messages-container').html('');
 
 					var $messagesField = $('#chat-messages-container'),
-						$ul = $('<ul/>');
+						$ul = $('<ul/>'),
+						maxNumberOfMessages = 0;
 
-					for (var i = 0; i < data.length; i += 1) {
+					if (data.length >= 40) {
+						maxNumberOfMessages = data.length - 40;
+					}
+
+					for (var i = maxNumberOfMessages; i < data.length; i += 1) {
 						var $message = $('<li/>');
 
 						if (data[i].by === username) {
@@ -28,12 +33,11 @@ define(['jquery', 'messageParser'], function ($, parser) {
 						$message
 							.append($('<p/>').addClass('send-by').html(data[i].by + ':'))
 							.append($('<p/>').addClass('text-message').html(parser.parseMessage(data[i].text)));
-						
+
 						$ul.append($message);
 					}
-					
+
 					$messagesField.append($ul);
-					$('#chat-messages-container').scrollTop($('#chat-messages-container')[0].scrollHeight);
 				},
 				error: function (error) {
 					deferred.reject(error);

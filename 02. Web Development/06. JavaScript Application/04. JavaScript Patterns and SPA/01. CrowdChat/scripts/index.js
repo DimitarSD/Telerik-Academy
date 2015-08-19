@@ -10,7 +10,8 @@
 			'httpRequester': '../scripts/app/http-requester',
 			'update': '../scripts/app/update-chat',
 			'send': '../scripts/app/send-message',
-			'messageParser':'../scripts/app/message-parser'
+			'message-parser': '../scripts/app/message-parser',
+			'get-cookie': '../scripts/app/get-cookie'
 		}
 	});
 
