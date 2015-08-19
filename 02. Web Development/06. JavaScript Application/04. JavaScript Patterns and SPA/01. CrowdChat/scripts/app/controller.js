@@ -13,9 +13,9 @@ define(['jquery', 'sammy', 'update', 'send', 'get-cookie'], function ($, sammy, 
 					$('#login-button').on('click', function () {
 						var username = $('#nickname-input').val();
 
-						if (username.length < 3) {
+						if (username.length < 3 || username.length > 20) {
 							$('#nickname-input').val('');
-							alert('Your username must contain atleast 3 characters');
+							alert('Your username must contain between 3 and 20 characters');
 						} else {
 							document.cookie = 'username=' + username + '; expires=Thu, 22 Dec 2016 12:00:00 UTC; path=/';
 							window.location.hash = '#/chat';
@@ -40,6 +40,10 @@ define(['jquery', 'sammy', 'update', 'send', 'get-cookie'], function ($, sammy, 
 							
 							if (textMessage === '') {
 								textMessage = '=== Gagnam style ===';
+							}
+							
+							if (textMessage.length > 100) {
+								alert('Your message is too long');
 							}
 							
 							var message = {
