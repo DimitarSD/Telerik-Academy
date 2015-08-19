@@ -7,6 +7,9 @@
 		* POST http://crowd-chat.herokuapp.com/posts
 			* Body:
 			```
-			 { "user": "USER_NAME", "text": "MESSAGE_TEXT"}
+			 { 
+			 	"user": "USER_NAME",
+			 	"text": "MESSAGE_TEXT"
+			 }
 			```
 			* Sends a new post

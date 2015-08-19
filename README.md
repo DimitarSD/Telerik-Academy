@@ -114,6 +114,7 @@ Programming                             | Web Development                       
 1. [UnderscoreJS](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/01.%20UnderscoreJS)
 2. [Web storages](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/02.%20Web%20storages)
 3. [Consuming web services](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/03.%20Consuming%20Web%20services)
+4. [JavaScript Patterns and SPA](https://github.com/DimitarSD/Telerik-Academy/tree/master/02.%20Web%20Development/06.%20JavaScript%20Application/04.%20JavaScript%20Patterns%20and%20SPA)
 
 # Software Technologies
 
