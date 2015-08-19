@@ -52,7 +52,9 @@ define(['jquery', 'sammy', 'update', 'send'], function ($, sammy, update, send) 
 					});
 				}
 
-				update.makeUpdate(url, getCookie('username'));
+				setInterval(function () {
+					update.makeUpdate(url, getCookie('username'));
+				}, 3000);
 			});
 
 			function getCookie(name) {
