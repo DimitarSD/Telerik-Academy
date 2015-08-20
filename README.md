@@ -51,6 +51,11 @@ Programming                             | Web Development                       
 * [Control Flow, Conditional Statements and Loops](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/05.%20Control%20Flow%2C%20Conditional%20Statements%20and%20Loops)
 * [High-quality Methods](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/06.%20High-quality%20Methods)
 * [High-Quality Classes](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/07.%20High-Quality%20Classes)
+* [Defensive Programming and Exceptions](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/08.%20Defensive%20Programming%20and%20Exceptions)
+* [Code Tuning and Optimization](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/09.%20Code%20Tuning%20and%20Optimization)
+* [Unit Testing](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/10.%20Unit%20Testing)
+* [Test-Driven Development](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/11.%20Test-Driven%20Development)
+* [Refactoring](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/12.%20Refactoring)
 
 ### Data Structures and Algorithms [C#]
 
