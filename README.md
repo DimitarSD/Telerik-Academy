@@ -56,6 +56,7 @@ Programming                             | Web Development                       
 * [Unit Testing](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/10.%20Unit%20Testing)
 * [Test-Driven Development](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/11.%20Test-Driven%20Development)
 * [Refactoring](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/12.%20Refactoring)
+* [Development Tools](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/13.%20Development%20Tools)
 
 ### Data Structures and Algorithms [C#]
 
