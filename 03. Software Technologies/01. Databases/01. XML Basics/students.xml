@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt" ?>
+<university xmlns:students="urn:telerikacademy.com">
+  <students>
+    <name>Albena</name>
+    <sex>Female</sex>
+    <birthdate>03/03/1993</birthdate>
+    <phone>0899741599</phone>
+    <email>a.grigorova@gmail.com</email>
+    <course>1</course>
+    <specialty>software engineering</specialty>
+    <facultyNumber>148759</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>C# OOP</name>
+        <tutor>Andrei Georgiev</tutor>
+        <score>235</score>
+      </exam>
+      <exam>
+        <name>JavaScript OOP</name>
+        <tutor>Denika Petrova</tutor>
+        <score>500</score>
+      </exam>
+    </takenExams>
+  </students>
+  <students>
+    <name>Gerogi</name>
+    <sex>Male</sex>
+    <birthdate>12/07/1991</birthdate>
+    <phone>0899141111</phone>
+    <email>gogata@yahoo.com</email>
+    <course>1</course>
+    <specialty>software engineering</specialty>
+    <facultyNumber>139987</facultyNumber>
+    <takenExams>
+      <exam>
+        <name>JavaScript Basics</name>
+        <tutor>Denika Petrova</tutor>
+        <score>300</score>
+      </exam>
+    </takenExams>
+  </students>
+</university>

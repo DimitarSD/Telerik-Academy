@@ -1,0 +1,10 @@
+What does the XML language represent? What is it used for?
+
+- Extensible Markup Language
+
+- It defines a set of rules for encoding documents in a format which is 
+  both human-readable and machine-readable
+
+- Used for describing structured data using text with tags
+
+- Used to describe other laguages for data representation- 
