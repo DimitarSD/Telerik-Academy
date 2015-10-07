@@ -126,5 +126,8 @@ Programming                             | Web Development                       
 
 ### Databases
 
-1. [Database Systems - Overview](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/01.%20Database%20Systems%20-%20Overview)
+1. [XML Basics](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/01.%20XML%20Basics)
+* [Processing XML In .NET](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/02.%20Processing%20XML%20In%20.NET)
+* [Processing JSON In .NET](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/03.%20Processing%20JSON%20In%20.NET)
+* [Database Systems - Overview](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/01.%20Database%20Systems%20-%20Overview)
 * [Introduction to SQL Server and MySQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/02.%20Introduction%20to%20SQL%20Server%20and%20MySQL)
