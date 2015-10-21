@@ -57,6 +57,9 @@ Programming                             | Web Development                       
 * [Test-Driven Development](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/11.%20Test-Driven%20Development)
 * [Refactoring](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/12.%20Refactoring)
 * [Development Tools](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/13.%20Development%20Tools)
+* [Creational Patterns](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/14.%20Creational%20Patterns)
+* [Structural Patterns](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/15.%20Structural%20Patterns)
+* [Behavioral Patterns](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/04.%20High-Quality%20Code%20%5BC%23%2C%20JavaScript%5D/16.%20Behavioral%20Patterns)
 
 ### Data Structures and Algorithms [C#]
 
