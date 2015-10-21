@@ -136,3 +136,4 @@ Programming                             | Web Development                       
 * [Introduction to SQL Server and MySQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/05.%20Introduction%20to%20SQL%20Server%20and%20MySQL)
 * [Database Modeling](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/06.%20Database%20Modeling)
 * [Intro to SQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/07.%20Intro%20to%20SQL)
+* [Advanced SQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/08.%20Advanced%20SQL)
