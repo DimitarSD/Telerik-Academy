@@ -134,3 +134,5 @@ Programming                             | Web Development                       
 * [Processing JSON In .NET](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/03.%20Processing%20JSON%20In%20.NET)
 * [Database Systems - Overview](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/04.%20Database%20Systems%20-%20Overview)
 * [Introduction to SQL Server and MySQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/05.%20Introduction%20to%20SQL%20Server%20and%20MySQL)
+* [Database Modeling](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/06.%20Database%20Modeling)
+* [Intro to SQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/07.%20Intro%20to%20SQL)
