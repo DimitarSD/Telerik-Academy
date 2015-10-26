@@ -18,7 +18,9 @@
 
             for (int i = 0; i < length; i++)
             {
-                sequenceOfIntegers.Push(int.Parse(Console.ReadLine()));
+                string input = Console.ReadLine();
+                int parsedNumber = int.Parse(input);
+                sequenceOfIntegers.Push(parsedNumber);
             }
 
             Console.WriteLine(new string('-', 50));

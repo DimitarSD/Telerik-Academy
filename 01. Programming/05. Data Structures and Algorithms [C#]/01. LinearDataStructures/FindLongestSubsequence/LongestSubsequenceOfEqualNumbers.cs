@@ -7,7 +7,7 @@
 
     public class LongestSubsequenceOfEqualNumbers
     {
-        public static List<int> FindTheLongestSubsequenceOfEqualNumber(List<int> sequenceOfNumbers)
+        public static List<int> FindTheLongestSubsequenceOfEqualNumbers(List<int> sequenceOfNumbers)
         {
             var finalSequence = new List<int>();
             int maxCounter = int.MinValue;
@@ -46,14 +46,15 @@
             // var sequenceOfNumbers = new List<int>(){4, 5, 5, 5, 9, 9, 9, 9, 9, 9, 6, 1, 3, 7, 8, 8, 9};
             var sequenceOfNumbers = new List<int>() { 4, 5, 5, 5, 9, 6, 1, 3, 3, 3, 3, 3, 3, 3, 3 };
 
-            var longestSubsequence = FindTheLongestSubsequenceOfEqualNumber(sequenceOfNumbers);
+            var longestSubsequence = FindTheLongestSubsequenceOfEqualNumbers(sequenceOfNumbers);
 
             return string.Join(", ", longestSubsequence);
         }
 
         public static void Main()
         {
-            Console.WriteLine(TestingMethod());
+            string longestSubsequence = TestingMethod();
+            Console.WriteLine(longestSubsequence);
         }
     }
 }

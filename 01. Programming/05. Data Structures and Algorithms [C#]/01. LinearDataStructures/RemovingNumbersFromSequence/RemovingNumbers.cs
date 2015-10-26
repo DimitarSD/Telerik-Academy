@@ -29,7 +29,7 @@
                 }
             }
 
-            // Remome all numbers that occur odd number of times
+            // Remove all numbers that occur odd number of times
             foreach (var element in numbers)
             {
                 if (element.Value % 2 != 0)
@@ -38,7 +38,6 @@
                 }
             }
 
-            // Print the final result
             Console.WriteLine(PrintMessage, string.Join(", ", sequenceOfNumbers));
         }
     }

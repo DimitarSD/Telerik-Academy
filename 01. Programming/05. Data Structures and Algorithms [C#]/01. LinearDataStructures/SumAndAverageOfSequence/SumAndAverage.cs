@@ -9,7 +9,7 @@
 
     public class SumAndAverage
     {
-        private const string MainMessage = "Please enter a sequence of positive integer numbers.";
+        private const string MainMessage = "Please enter a sequence of positive integer numbers. Each number on separate line.";
         private const string PrintSumMessage = "Sum of all numbers: {0}";
         private const string PrintAverageMessage = "Average: {0}";
 

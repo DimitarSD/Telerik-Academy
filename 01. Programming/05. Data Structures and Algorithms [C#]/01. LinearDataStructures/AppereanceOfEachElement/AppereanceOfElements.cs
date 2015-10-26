@@ -29,7 +29,8 @@
             {
                 if (numbers.ContainsKey(sequenceOfIntegers[i]))
                 {
-                    numbers[sequenceOfIntegers[i]]++;
+                    int index = sequenceOfIntegers[i];
+                    numbers[index]++;
                 }
                 else
                 {

@@ -24,7 +24,8 @@
         public static void Main()
         {
             Console.Write(MainMessage);
-            int firstElementOfTheSequence = int.Parse(Console.ReadLine());
+            string input = Console.ReadLine();
+            int firstElementOfTheSequence = int.Parse(input);
 
             List<int> finalSequence = new List<int>();
             finalSequence.Add(firstElementOfTheSequence);
