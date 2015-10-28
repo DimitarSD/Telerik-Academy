@@ -69,4 +69,4 @@
   - Given a starting position (`*`) calculate and fill in the array the minimal distance from this position to any other cell in the array. Use "`u`" for all unreachable cells. 
   - _Example_:
 
-<img src="../matrices.png" />
+<img src="imgs/matrices.png" />
