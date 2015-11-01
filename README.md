@@ -63,7 +63,8 @@ Programming                             | Web Development                       
 
 ### Data Structures and Algorithms [C#]
 
-1. [Linear Data Structures](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/01.%20LinearDataStructures)
+1. [Data Structures, Algorithms and Complexity](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity)
+* [Linear Data Structures](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/02.%20Linear%20Data%20Structures)
 
 # Web Development
 
