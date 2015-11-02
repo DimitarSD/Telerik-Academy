@@ -1,6 +1,4 @@
 ## Advanced SQL
-### _Homework_
-
 1.	Write a SQL query to find the names and salaries of the employees that take the minimal salary in the company.
 	*	Use a nested `SELECT` statement.
 1.	Write a SQL query to find the names and salaries of the employees that have a salary that is up to 10% higher than the minimal salary for the company.
