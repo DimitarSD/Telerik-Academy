@@ -1,6 +1,4 @@
 ## SQL Server and MySQL - Introduction
-### _Homework_
-
 1.	Download and install SQL Server Express. Install also SQL Server Management Studio Express (this could take some effort but be persistent).
 1.	Connect to the SQL Server with SQL Server Management Studio
 	*	Use Windows authentication.
