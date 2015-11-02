@@ -1,4 +1,4 @@
-define(['jquery', 'update', 'get-cookie'], function ($, update, cookie) {
+define([update', 'get-cookie'], function ($, update, cookie) {
 	var send = (function () {
 		'use strict';
 
