@@ -1,5 +1,4 @@
 ## ADO.NET
-### _Homework_
 
 1.  Write a program that retrieves from the `Northwind` sample database in MS SQL Server the number of rows in the `Categories` table.
 1.  Write a program that retrieves the name and description of all categories in the `Northwind` DB.
