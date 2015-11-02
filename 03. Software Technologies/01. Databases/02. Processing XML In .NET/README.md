@@ -1,6 +1,4 @@
 ## XML Processing in .NET
-### _Homework_
-
 1.  Create a XML file representing catalogue.
   * The catalogue should contain albums of different artists.
   * For each album you should define: `name`, `artist`, `year`, `producer`, `price` and a list of `songs`.
