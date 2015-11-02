@@ -1,5 +1,4 @@
 ## Database Performance
-### _Homework_
 
 1.  Create a table in SQL Server with 10 000 000 log entries (date + text).
   * Search in the table by date range. Check the speed (without caching).
