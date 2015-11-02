@@ -1,6 +1,4 @@
 ## Entity Framework Code First
-### _Homework_
-
 1.  Using c0de first approach, create database for student system with the following tables:
   * `Students`
     * fields: Id, Name, Number, etc.
