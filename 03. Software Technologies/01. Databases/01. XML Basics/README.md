@@ -1,6 +1,4 @@
 ## XML Basics
-### _Homework_
-
 1.  What does the XML language represents? What does it used for? 
 1.  Create XML document `students.xml`, which contains structured description of students.
   * For each student you should enter information for his name, sex, birth date, phone, email, course, specialty, faculty number and a list of taken exams (exam name, tutor, score).
