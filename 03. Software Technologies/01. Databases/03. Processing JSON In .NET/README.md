@@ -1,5 +1,4 @@
 ## Processing JSON in .NET
-### _Homework_
 
 *   Using JSON.NET and the Telerik Academy Youtube RSS feed, implement the following:
 
