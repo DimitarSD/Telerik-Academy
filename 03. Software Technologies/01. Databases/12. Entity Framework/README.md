@@ -1,5 +1,4 @@
-## 08. Entity Framework
-### _Homework_
+## Entity Framework
 
 1.  Using the Visual Studio Entity Framework designer create a `DbContext` for the `Northwind` database
 1.  Create a DAO class with static methods which provide functionality for inserting, modifying and deleting customers.
