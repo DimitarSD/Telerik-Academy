@@ -140,6 +140,9 @@ Programming                             | Web Development                       
 * [Advanced SQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/08.%20Advanced%20SQL)
 * [Transact SQL](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/09.%20Transact%20SQL)
 * [ADO.NET](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/10.%20ADO.NET)
+* [Entity Framework](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/12.%20Entity%20Framework)
+* [Entity Framework Code First](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/13.%20Entity%20Framework%20Code%20First)
+* [Database Performance](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/01.%20Databases/14.%20Database%20Performance)
 
 
 ### Web Services and Cloud
