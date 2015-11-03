@@ -14,7 +14,7 @@
             Console.WriteLine(MainMessage);
             string input = Console.ReadLine();
 
-            List<int> sequenceOfNumbers = new List<int>();
+            var sequenceOfNumbers = new List<int>();
 
             while (input != string.Empty)
             {

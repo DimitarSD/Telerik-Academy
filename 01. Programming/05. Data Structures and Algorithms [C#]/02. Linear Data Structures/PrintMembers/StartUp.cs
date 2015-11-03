@@ -16,10 +16,10 @@
             string input = Console.ReadLine();
             int firstElementOfTheSequence = int.Parse(input);
 
-            List<int> finalSequence = new List<int>();
+            var finalSequence = new List<int>();
             finalSequence.Add(firstElementOfTheSequence);
 
-            Queue<int> sequence = new Queue<int>();
+            var sequence = new Queue<int>();
 
             sequence.Enqueue(firstElementOfTheSequence + 1);
             sequence.Enqueue((2 * firstElementOfTheSequence) + 1);

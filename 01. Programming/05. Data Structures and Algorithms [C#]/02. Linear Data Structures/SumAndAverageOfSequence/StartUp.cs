@@ -13,7 +13,7 @@
         public static void Main()
         {
             Console.WriteLine(MainMessage);
-            List<int> sequenceOfNumbers = new List<int>();
+            var sequenceOfNumbers = new List<int>();
 
             string input = Console.ReadLine();
 

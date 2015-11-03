@@ -13,7 +13,7 @@
             Console.Write(MainMessage);
             int length = int.Parse(Console.ReadLine());
 
-            Stack<int> sequenceOfIntegers = new Stack<int>();
+            var sequenceOfIntegers = new Stack<int>();
 
             for (int i = 0; i < length; i++)
             {

@@ -10,11 +10,11 @@
 
         public static void Main()
         {
-            // List<int> sequenceOfIntegers = new List<int>() { 2, 5, 1, 6, 6, 2, 6, 9, 6, 6, 6, 6, 1, 10, 6, 6, 9, 1, 6, 8, 6, 6, 6, 6, 6 };
-            // List<int> sequenceOfIntegers = new List<int>() { 2, 2, 3, 3, 2, 3, 4, 3, 3 };
-            List<int> sequenceOfIntegers = new List<int>() { 1, 2, 3, 4, 5, 6 };
+            // var sequenceOfIntegers = new List<int>() { 2, 5, 1, 6, 6, 2, 6, 9, 6, 6, 6, 6, 1, 10, 6, 6, 9, 1, 6, 8, 6, 6, 6, 6, 6 };
+            // var sequenceOfIntegers = new List<int>() { 2, 2, 3, 3, 2, 3, 4, 3, 3 };
+            var sequenceOfIntegers = new List<int>() { 1, 2, 3, 4, 5, 6 };
 
-            Dictionary<int, int> numbers = new Dictionary<int, int>();
+            var numbers = new Dictionary<int, int>();
 
             for (int i = 0; i < sequenceOfIntegers.Count; i++)
             {

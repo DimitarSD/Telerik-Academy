@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.AutoResizableStak", "Aut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.DynamicLinkedList", "DynamicLinkedList\13.DynamicLinkedList.csproj", "{BE7F1114-F157-4ABE-B6CC-1F367AC42F17}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Labyrinth", "Labyrinth\14. Labyrinth.csproj", "{958804C1-3082-4DF2-B595-3A89A1533426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDataStructure.Tests", "LinearDataStructure.Tests\LinearDataStructure.Tests.csproj", "{991C76EB-D755-44A7-B5D1-7AE031523380}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{BE7F1114-F157-4ABE-B6CC-1F367AC42F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE7F1114-F157-4ABE-B6CC-1F367AC42F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE7F1114-F157-4ABE-B6CC-1F367AC42F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958804C1-3082-4DF2-B595-3A89A1533426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958804C1-3082-4DF2-B595-3A89A1533426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958804C1-3082-4DF2-B595-3A89A1533426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958804C1-3082-4DF2-B595-3A89A1533426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991C76EB-D755-44A7-B5D1-7AE031523380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991C76EB-D755-44A7-B5D1-7AE031523380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991C76EB-D755-44A7-B5D1-7AE031523380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991C76EB-D755-44A7-B5D1-7AE031523380}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,7 +26,7 @@
             }
             while (end < start);
 
-            List<int> operations = new List<int>();
+            var operations = new List<int>();
 
             int newEndTarget = end;
             int multyPlierCounter = 0;

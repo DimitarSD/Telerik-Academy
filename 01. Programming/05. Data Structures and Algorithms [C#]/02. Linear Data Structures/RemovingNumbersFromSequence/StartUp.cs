@@ -9,9 +9,8 @@
 
         public static void Main()
         {
-            List<int> sequenceOfNumbers = new List<int>() { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2 };
-
-            Dictionary<int, int> numbers = new Dictionary<int, int>();
+            var sequenceOfNumbers = new List<int>() { 4, 2, 2, 5, 2, 3, 2, 3, 1, 5, 2 };
+            var numbers = new Dictionary<int, int>();
 
             for (int i = 0; i < sequenceOfNumbers.Count; i++)
             {
@@ -32,7 +31,7 @@
             {
                 if (element.Value % 2 != 0)
                 {
-                    sequenceOfNumbers.RemoveAll(n => n == element.Key);
+                    sequenceOfNumbers.RemoveAll(number => number == element.Key);
                 }
             }
 

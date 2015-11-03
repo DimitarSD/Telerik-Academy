@@ -9,7 +9,7 @@
         
         public static void Main()
         {
-            List<int> sequenceOfIntegers = new List<int>() 
+            var sequenceOfIntegers = new List<int>() 
             {
                 2, 5, 1, 6, 3, 2, 3, 9, 3, 6, 7, 6, 1, 10, 6, 4, 9, 1, 6, 8, 6, 4, 3, 6, 7,
                 2, 5, 1, 6, 3, 2, 3, 9, 3, 6, 7, 6, 1, 10, 6, 4, 9, 1, 6, 8, 6, 4, 3, 6, 7,
@@ -18,7 +18,7 @@
 
             sequenceOfIntegers.Sort();
 
-            Dictionary<int, int> numbers = new Dictionary<int, int>();
+            var numbers = new Dictionary<int, int>();
 
             for (int i = 0; i < sequenceOfIntegers.Count; i++)
             {

@@ -9,7 +9,7 @@
 
         public static void Main()
         {
-            AutoResizableStack<int> numbers = new AutoResizableStack<int>();
+            var numbers = new AutoResizableStack<int>();
             int currentCapacity = numbers.Capacity;
 
             for (int i = 0; i < 50; i++)

@@ -5,6 +5,7 @@
     public class AutoResizableStack<T>
     {
         private const string RemovingElementFromEmptyStackExceptionMessage = "You can't remove an element from an empty stack";
+        private const string PeekElementFromEmptyStackExceptionMessage = "Cannot peek an element from empty stack";
 
         private static readonly int StackInitialCapacity = 1;
 
@@ -12,6 +13,9 @@
         private int stackCounter;
         private int index;
 
+        /// <summary>
+        /// Creates a new instance of the AutoResizableStack class
+        /// </summary>
         public AutoResizableStack()
         {
             this.stackArray = new T[StackInitialCapacity];
@@ -19,6 +23,9 @@
             this.index = 0;
         }
 
+        /// <summary>
+        /// Gets the count of the AutoResizableStack
+        /// </summary>
         public int Count
         {
             get
@@ -27,6 +34,9 @@
             }
         }
 
+        /// <summary>
+        /// Gets the capacity of the AutoResizableStack
+        /// </summary>
         public int Capacity
         {
             get
@@ -61,12 +71,12 @@
         /// </summary>
         public void Pop()
         {
-            if (this.stackArray == null)
+            if (this.stackArray.Length == 1)
             {
-                throw new ArgumentNullException(RemovingElementFromEmptyStackExceptionMessage);
+                throw new ArgumentException(RemovingElementFromEmptyStackExceptionMessage);
             }
 
-            // Creating new array with capacity equal to this.stackCounter
+            // Creating new array with capacity equal to "this.stackCounter"
             var newArray = new T[this.stackCounter];
 
             // Copying the old array in the new one.
@@ -84,6 +94,11 @@
         /// <returns>Returns variable of type T</returns>
         public T Peek()
         {
+            if (this.index == 0)
+            {
+                throw new ArgumentException(PeekElementFromEmptyStackExceptionMessage);
+            }
+
             return this.stackArray[this.index - 1];
         }
     }

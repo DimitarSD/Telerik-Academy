@@ -9,14 +9,14 @@
     /// <typeparam name="T">The type of elements to store in the queue</typeparam>
     public class Queue<T>
     {
-        private readonly LinkedList<T> list;
+        private readonly LinkedList<T> elements;
 
         /// <summary>
         /// Default constructor
         /// </summary>
         public Queue()
         {
-            this.list = new LinkedList<T>();
+            this.elements = new LinkedList<T>();
         }
 
         /// <summary>
@@ -26,8 +26,16 @@
         {
             get
             {
-                return this.list.Count;
+                return this.elements.Count;
             }
+        }
+
+        /// <summary>
+        /// Removes all objects from the collection.
+        /// </summary>
+        public void Clear()
+        {
+            this.elements.Clear();
         }
 
         /// <summary>
@@ -36,7 +44,7 @@
         /// <param name="item">The element to add</param>
         public void Enqueue(T item)
         {
-            this.list.AddLast(item);
+            this.elements.AddLast(item);
         }
 
         /// <summary>
@@ -45,12 +53,12 @@
         /// <returns>The top first from the queue</returns>
         public T Peek()
         {
-            if (this.list.Count == 0)
+            if (this.elements.Count == 0)
             {
                 throw new ArgumentException("The queue is empty!");
             }
 
-            return this.list.First.Value;
+            return this.elements.First.Value;
         }
 
         /// <summary>
@@ -60,7 +68,8 @@
         public T Dequeue()
         {
             T itemToGet = this.Peek();
-            this.list.RemoveFirst();
+            this.elements.RemoveFirst();
+
             return itemToGet;
         }
     }
