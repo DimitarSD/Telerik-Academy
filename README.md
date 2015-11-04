@@ -66,6 +66,7 @@ Programming                             | Web Development                       
 1. [Data Structures, Algorithms and Complexity](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/01.%20Data%20Structures%2C%20Algorithms%20and%20Complexity)
 * [Linear Data Structures](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/02.%20Linear%20Data%20Structures)
 * [Trees And Traversals](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/03.%20Trees%20And%20Traversals)
+* [Dictionaries, Hash Tables and Sets](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/04.%20Dictionaries%2C%20Hash%20Tables%20and%20Sets)
 
 # Web Development
 
