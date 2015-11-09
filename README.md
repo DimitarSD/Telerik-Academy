@@ -68,6 +68,7 @@ Programming                             | Web Development                       
 * [Trees And Traversals](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/03.%20Trees%20And%20Traversals)
 * [Dictionaries, Hash Tables and Sets](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/04.%20Dictionaries%2C%20Hash%20Tables%20and%20Sets)
 * [Advanced Data Structures](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/05.%20Advanced%20Data%20Structures)
+* [Data Structures Efficiency](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/06.%20Data%20Structures%20Efficiency)
 
 # Web Development
 
