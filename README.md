@@ -151,3 +151,4 @@ Programming                             | Web Development                       
 
 ### Web Services and Cloud
 1. [Introduction to ASP.NET Web API](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud/01.%20Introduction%20To%20ASP.NET%20Web%20API)
+* [Consuming Web Services Using C#](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud)
