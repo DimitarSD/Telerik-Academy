@@ -72,6 +72,7 @@ Programming                             | Web Development                       
 * [Recursion](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/07.Recursion)
 * [Combinatorics](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/08.%20Combinatorics)
 * [Dynamic Programming](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/09.%20Dynamic%20Programming)
+* [Graphs And Graph Algorithms](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/10.%20Graphs%20And%20Graph%20Algorithms)
 
 # Web Development
 
