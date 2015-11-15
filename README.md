@@ -71,6 +71,7 @@ Programming                             | Web Development                       
 * [Data Structures Efficiency](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/06.%20Data%20Structures%20Efficiency)
 * [Recursion](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/07.Recursion)
 * [Combinatorics](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/08.%20Combinatorics)
+* [Dynamic Programming](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/09.%20Dynamic%20Programming)
 
 # Web Development
 
