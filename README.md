@@ -2,12 +2,12 @@
 <p align="center"><a href="https://telerikacademy.com"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/telerik-academy.png?raw=true" /></a></p>
 <h4 align="center">Homework and projects</h3>
 
-Programming                             | Web Development                            |Software Technologies 
+Programming                             | Web                             |Software Technologies 
 --------------------------------------  | ------------------------------------------ |----------------------
 [C# Programming - Part I](https://github.com/DimitarSD/Telerik-Academy#c-programming---part-i)             |[HTML Basics](https://github.com/DimitarSD/Telerik-Academy#html-basics)                             |[Databases](https://github.com/DimitarSD/Telerik-Academy#databases)         
 [C# Programming - Part II](https://github.com/DimitarSD/Telerik-Academy#c-programming---part-ii)            |[CSS Styling](https://github.com/DimitarSD/Telerik-Academy#css-styling)                             |[Web Services And Cloud](https://github.com/DimitarSD/Telerik-Academy#web-services-and-cloud)                      
-[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-c)    |[JavaScript Fundamentals](https://github.com/DimitarSD/Telerik-Academy#javascript-fundamentals)                 |                      
-[High-Quality Code [C#, JS]](https://github.com/DimitarSD/Telerik-Academy#high-quality-code-c-javascript)  |[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-javascript)|                      
+[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-c)    |[JavaScript Fundamentals](https://github.com/DimitarSD/Telerik-Academy#javascript-fundamentals)                 | [Mobile Development]()                     
+[High-Quality Code [C#, JS]](https://github.com/DimitarSD/Telerik-Academy#high-quality-code-c-javascript)  |[Object-Oriented Programming](https://github.com/DimitarSD/Telerik-Academy#object-oriented-programming-javascript)| [Web Development]()                    
 [Data Structures and Algorithms](https://github.com/DimitarSD/Telerik-Academy#data-structures-and-algorithms-c) |[JavaScript UI & DOM](https://github.com/DimitarSD/Telerik-Academy#javascript-ui--dom)                     |        
 | |[JavaScript Application](https://github.com/DimitarSD/Telerik-Academy#javascript-application)|              
 
@@ -76,7 +76,7 @@ Programming                             | Web Development                       
 * [Graphs And Graph Algorithms](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/10.%20Graphs%20And%20Graph%20Algorithms)
 * [Sorting Algorithms](https://github.com/DimitarSD/Telerik-Academy/tree/master/01.%20Programming/05.%20Data%20Structures%20and%20Algorithms%20%5BC%23%5D/11.%20Sorting%20Algorithms)
 
-# Web Development
+# Web
 
 ### HTML Basics
 
@@ -158,3 +158,12 @@ Programming                             | Web Development                       
 ### Web Services and Cloud
 1. [Introduction to ASP.NET Web API](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud/01.%20Introduction%20To%20ASP.NET%20Web%20API)
 * [Consuming Web Services Using C#](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud)
+
+# Mobile Development
+
+### Windows Mobile Applications
+1. [Data Binding](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/01.%20Windows%20Applications/01.%20Data%20Binding)
+
+# Web Development
+
+### Single Page Applications
