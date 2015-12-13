@@ -1,4 +1,5 @@
 <h1 align="center">Telerik Software Academy 2015/2016</h1>
+<p align="center"><a href="https://telerikacademy.com"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/telerik-academy.png?raw=true" /></a></p>
 <h4 align="center">Homework and projects</h3>
 
 Programming                             | Web Development                            |Software Technologies 
