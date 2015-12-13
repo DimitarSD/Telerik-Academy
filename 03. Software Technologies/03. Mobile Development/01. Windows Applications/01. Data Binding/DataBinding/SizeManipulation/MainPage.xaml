@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="SizeManipulation.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SizeManipulation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    mc:Ignorable="d">
+
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.7*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="0.4*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Slider Name="textSizeSlider"
+            Grid.Row="0" 
+            Grid.Column="1"
+            Margin="0, 20, 0, 0"
+            Minimum="20"
+            Maximum="57"
+            StepFrequency="1"/>
+
+        <TextBlock  
+            Grid.Row="1" 
+            Grid.Column="1" 
+            Text="Windows"
+            Foreground="DodgerBlue"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            FontSize="{Binding ElementName=textSizeSlider, Path=Value}"/>
+
+        <TextBlock 
+            Grid.Row="2" 
+            Grid.Column="1" 
+            Text="{Binding ElementName=textSizeSlider, Path=Value}"
+            FontSize="35"
+            FontWeight="Bold"
+            Foreground="DodgerBlue"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"/>
+
+        <StackPanel Grid.Row="3" Grid.Column="1">
+            <Button Content="Set size 40" 
+                    Margin="3"
+                    HorizontalAlignment="Center" 
+                    Background="YellowGreen"
+                    Click="OnSetSizeButtonClick"/>
+            <Button Content="Set to large" 
+                    Margin="3"
+                    HorizontalAlignment="Center"
+                    Background="YellowGreen"
+                    Click="OnSetToLargeButtonClick"/>
+        </StackPanel>
+    </Grid>
+</Page>

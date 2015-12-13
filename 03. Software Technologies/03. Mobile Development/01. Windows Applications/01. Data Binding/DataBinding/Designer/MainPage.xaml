@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="Designer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Designer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="DodgerBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Name="textContainerBackground" Grid.Row="0" 
+                Grid.Column="0"
+                Grid.ColumnSpan="3"
+                Background="{Binding ElementName=backgroundColor,
+                                     Path=SelectedItem}">
+            <TextBlock Name="textContainer"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Center"
+                   FontSize="25"
+                   TextWrapping="WrapWholeWords"
+                   Text="{Binding ElementName=setText, Path=Text, Mode=TwoWay, UpdateSourceTrigger=Default}"
+                   Foreground="{Binding ElementName=foregroundColor, 
+                                        Path=SelectedItem}"/>
+
+        </Border>
+        
+        <TextBox Name="setText" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"/>
+
+        <ComboBox Name="backgroundColor"
+                  Grid.Row="2" 
+                  Grid.Column="0" 
+                  HorizontalAlignment="Stretch" 
+                  Margin="5"
+                  SelectionChanged="OnBackgroundColorSelectionChanged">
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="Yellow"/>
+            <ComboBoxItem Content="Red"/>
+        </ComboBox>
+
+        <ComboBox Name="foregroundColor"
+                  Grid.Row="2"
+                  Grid.Column="2" 
+                  HorizontalAlignment="Stretch"
+                  Margin="5"
+                  SelectionChanged="OnForegroudColorSelectionChanged">
+            <ComboBoxItem Content="Pink"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Green"/>
+        </ComboBox>
+    </Grid>
+</Page>
