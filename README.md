@@ -174,3 +174,4 @@ Programming                             | Web                             |Softw
 #### Single Page Applications
 #### End-to-End JavaScript Applications
 1. [NodeJS Web Server](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/04.%20Web%20Development/02.%20End-to-End%20JavaScript%20Applications/01.%20NodeJS%20Web%20Server)
+2. [MongoDB and Mongoose](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/04.%20Web%20Development/02.%20End-to-End%20JavaScript%20Applications/02.%20MongoDB%20and%20Mongoose)
