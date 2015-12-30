@@ -159,7 +159,8 @@ Programming                             | Web                             |Softw
 1. [Introduction to ASP.NET Web API](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud/01.%20Introduction%20To%20ASP.NET%20Web%20API)
 * [Consuming Web Services Using C#](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/02.%20Web%20Services%20and%20Cloud)
 
-# Mobile Development
+<h1 align="center">Mobile Development</h1>
+<p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/mobile-development.gif" /></p>
 
 ### Windows Mobile Applications
 1. [Data Binding](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/01.%20Windows%20Applications/01.%20Data%20Binding)
@@ -167,7 +168,8 @@ Programming                             | Web                             |Softw
 ### Android Mobile Applications
 ### iOS Mobile Applications
 
-# Web Development
+<h1 align="center">Web Development</h1>
+<p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/web-development.png" /></p>
 
 ### Single Page Applications
 ### End-to-End JavaScript Applications
