@@ -66,8 +66,12 @@ http.createServer(function(request, response) {
 
 function generateFormHtml() {
     return '<form action="/upload" enctype="multipart/form-data" method="post">' +
-        '<input type="file" name="upload" accept="image/*"><br>' +
-        '<input type="submit" value="Upload">' +
+        '<input type="file" name="upload" accept="image/*" ' +
+        'style="width: 210px; height: 40px; background-color: #008CEF; margin: 5px; ' +
+        'color:white; padding-top: 10px; padding-left: 15px;"><br>' +
+        '<input type="submit" value="Upload" ' +
+        'style="width: 210px; height: 30px; background-color: #008CEF;' +
+        ' margin: 5px; color:white; border: none">' +
         '</form>';
 }
 
