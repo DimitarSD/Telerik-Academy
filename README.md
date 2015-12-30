@@ -162,15 +162,15 @@ Programming                             | Web                             |Softw
 <h1 align="center">Mobile Development</h1>
 <p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/mobile-development.gif" /></p>
 
-### Windows Mobile Applications
+#### Windows Mobile Applications
 1. [Data Binding](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/01.%20Windows%20Applications/01.%20Data%20Binding)
 
-### Android Mobile Applications
-### iOS Mobile Applications
+#### Android Mobile Applications
+#### iOS Mobile Applications
 
 <h1 align="center">Web Development</h1>
 <p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/web-development.png" /></p>
 
-### Single Page Applications
-### End-to-End JavaScript Applications
+#### Single Page Applications
+#### End-to-End JavaScript Applications
 1. [NodeJS Web Server](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/04.%20Web%20Development/02.%20End-to-End%20JavaScript%20Applications/01.%20NodeJS%20Web%20Server)
