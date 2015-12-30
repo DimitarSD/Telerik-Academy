@@ -163,6 +163,7 @@ Programming                             | Web                             |Softw
 
 ### Windows Mobile Applications
 1. [Data Binding](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/01.%20Windows%20Applications/01.%20Data%20Binding)
+
 ### Android Mobile Applications
 ### iOS Mobile Applications
 
