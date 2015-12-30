@@ -163,7 +163,11 @@ Programming                             | Web                             |Softw
 
 ### Windows Mobile Applications
 1. [Data Binding](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/01.%20Windows%20Applications/01.%20Data%20Binding)
+### Android Mobile Applications
+### iOS Mobile Applications
 
 # Web Development
 
 ### Single Page Applications
+### End-to-End JavaScript Applications
+1. [NodeJS Web Server](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/04.%20Web%20Development/02.%20End-to-End%20JavaScript%20Applications/01.%20NodeJS%20Web%20Server)
