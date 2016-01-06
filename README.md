@@ -169,6 +169,7 @@ Programming                             | Web                             |Softw
 1. [Java Fundamentals and Java OOP](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/02.%20Android%20Applications/01.%20Java%20Fundamentals%20and%20Java%20OOP)
 
 #### iOS Mobile Applications
+1. [Objective-C Fundamentals](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/03.%20iOS%20Applications/01.%20Objective-C%20Fundamentals)
 
 <h1 align="center">Web Development</h1>
 <p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/web-development.png" /></p>
