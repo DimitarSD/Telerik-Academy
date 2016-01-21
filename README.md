@@ -170,6 +170,7 @@ Programming                             | Web                             |Softw
 
 #### iOS Mobile Applications
 1. [Objective-C Fundamentals](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/03.%20iOS%20Applications/01.%20Objective-C%20Fundamentals)
+2. [Methods in Objective-C](https://github.com/DimitarSD/Telerik-Academy/tree/master/03.%20Software%20Technologies/03.%20Mobile%20Development/03.%20iOS%20Applications/02.%20Methods%20in%20Objective-C)
 
 <h1 align="center">Web Development</h1>
 <p align="center"><img src="https://github.com/DimitarSD/Telerik-Academy/blob/master/web-development.png" /></p>
